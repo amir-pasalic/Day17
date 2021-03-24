@@ -1,0 +1,13 @@
+const range = {
+  max: 100.0,
+  min: -25.0,
+  num1: 17.5,
+  num2: 88.8,
+  average: 45.325,
+};
+//Only change code below
+const middle = ({ max, min }) => (max + min) / 2.0;
+
+//Only change code above
+console.log(middle(range));
+module.exports = middle;
